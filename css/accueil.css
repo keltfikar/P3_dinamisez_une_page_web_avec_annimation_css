@@ -93,7 +93,7 @@ a {
 .fa-heart {
     position: absolute;
     margin: 10px;
-    right: 15px;
+    right: 30px;
     font-size: 28px;
     -webkit-text-stroke: 1px white;
 }
@@ -385,6 +385,7 @@ span {
 /*****************   Début Footer  ************/
 
 .footer {
+    height: 295px;
     padding: 25px;
     font-size: 16px;
     line-height: 25px;
@@ -448,5 +449,8 @@ ul {
     }
     .image_restau1 {
         position: relative;
+    }
+    .footer {
+        height: 135px;
     }
 }

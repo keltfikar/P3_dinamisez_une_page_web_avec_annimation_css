@@ -371,11 +371,6 @@ ul {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-    /*********************   footer      ****************/
-    .footer {
-        display: grid;
-        place-items: center;
-    }
 }
 
 @media (min-width: 992px) {
@@ -427,10 +422,5 @@ ul {
     .choix_1 {
         text-overflow: ellipsis;
         white-space: nowrap;
-    }
-    /*********************   footer      ****************/
-    .footer {
-        display: grid;
-        place-items: center;
     }
 }
