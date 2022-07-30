@@ -377,7 +377,6 @@ span {
 /*****************   Début Footer  ************/
 
 .footer {
-    height: 295px;
     padding: 25px;
     font-size: 16px;
     line-height: 25px;
@@ -441,8 +440,5 @@ ul {
     }
     .image_restau1 {
         position: relative;
-    }
-    .footer {
-        height: 135px;
     }
 }
