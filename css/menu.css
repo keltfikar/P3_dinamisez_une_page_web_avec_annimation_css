@@ -155,7 +155,6 @@ section {
     background-color: white;
     display: flex;
     align-items: center;
-    margin-left: 10px;
     margin-bottom: 20px;
     border-radius: 20px;
     overflow: hidden;
@@ -269,6 +268,27 @@ h3 {
     animation-delay: 900ms;
 }
 
+.entrees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desserts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     background: linear-gradient(to bottom right, var(--secondaire), var(--primaire));
     color: white;
@@ -367,6 +387,9 @@ ul {
         flex-direction: row;
         flex-wrap: nowrap;
     }
+    .choix_1 {
+        margin-left: 10px;
+    }
     .prix {
         margin-right: 5px;
     }
@@ -428,5 +451,6 @@ ul {
     .choix_1 {
         text-overflow: ellipsis;
         white-space: nowrap;
+        margin-left: 10px;
     }
 }
