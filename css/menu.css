@@ -274,14 +274,20 @@ h3 {
     color: white;
     border: none;
     height: 50px;
-    width: 180px;
+    width: 40%;
     border-radius: 20px;
-    margin: 20px 0px 60px 100px;
+    margin: 30px 0px 30px 0px;
     font-size: 16px;
     transform: scale(1);
     transition-property: transform;
     transition-duration: 200ms;
     box-shadow: 2px 4px 8px #999;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {

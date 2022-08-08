@@ -90,6 +90,42 @@ a {
     animation-delay: 400ms;
 }
 
+.fa-heart {
+    position: absolute;
+    margin: 10px;
+    right: 30px;
+    font-size: 28px;
+    -webkit-text-stroke: 1px white;
+}
+
+.heart-full {
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.heart-full:hover {
+    opacity: 1;
+    background: linear-gradient(162deg, #FF79DA 0%, #9356DC 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-delay: 200ms;
+    transition-duration: 500ms;
+    transform: translateZ(34px);
+}
+
+.heart-empty:hover~.heart-full {
+    background-clip: text;
+    background: linear-gradient(162deg, #FF79DA 0%, #9356DC 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 1;
+}
+
 
 /************** header - logo **********/
 
@@ -295,14 +331,6 @@ span {
     display: flex;
     justify-content: space-between;
     line-height: 5px;
-}
-
-.fa-heart {
-    position: absolute;
-    margin: 10px;
-    right: 30px;
-    font-size: 28px;
-    -webkit-text-stroke: 1px white;
 }
 
 .heart-full {
