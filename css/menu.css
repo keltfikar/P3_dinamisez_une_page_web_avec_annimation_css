@@ -224,48 +224,53 @@ h3 {
 
 @keyframes choix_1_delay {
     0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
         transform: translateY(50%);
-        opacity: 1;
+        opacity: 0.5;
     }
     100% {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 
-.choix_1:nth-child(1) {
+.anim_1:nth-child(1) {
     animation-delay: 100ms;
 }
 
-.choix_1:nth-child(2) {
-    animation-delay: 200ms;
-}
-
-.choix_1:nth-child(3) {
+.anim_1:nth-child(2) {
     animation-delay: 300ms;
 }
 
-.choix_1:nth-child(4) {
-    animation-delay: 400ms;
-}
-
-.choix_1:nth-child(5) {
+.anim_1:nth-child(3) {
     animation-delay: 500ms;
 }
 
-.choix_1:nth-child(6) {
-    animation-delay: 600ms;
-}
-
-.choix_1:nth-child(7) {
+.anim_2:nth-child(1) {
     animation-delay: 700ms;
 }
 
-.choix_1:nth-child(8) {
-    animation-delay: 800ms;
+.anim_2:nth-child(2) {
+    animation-delay: 900ms;
 }
 
-.choix_1:nth-child(9) {
-    animation-delay: 900ms;
+.anim_2:nth-child(3) {
+    animation-delay: 1100ms;
+}
+
+.anim_3:nth-child(1) {
+    animation-delay: 1300ms;
+}
+
+.anim_3:nth-child(2) {
+    animation-delay: 1500ms;
+}
+
+.anim_3:nth-child(3) {
+    animation-delay: 1700ms;
 }
 
 .entrees {
